@@ -39,6 +39,7 @@ Partial Class frmMain
         Me.cbAutoSend = New System.Windows.Forms.CheckBox()
         Me.lblAuto = New System.Windows.Forms.Label()
         Me.tmrUpdate = New System.Windows.Forms.Timer(Me.components)
+        Me.ttHelpPopup = New System.Windows.Forms.ToolTip(Me.components)
         Me.grpLocalRemote.SuspendLayout()
         Me.contexMenuTray.SuspendLayout()
         Me.SuspendLayout()
@@ -154,6 +155,7 @@ Partial Class frmMain
         Me.cbAutoSend.Name = "cbAutoSend"
         Me.cbAutoSend.Size = New System.Drawing.Size(15, 14)
         Me.cbAutoSend.TabIndex = 42
+        Me.ttHelpPopup.SetToolTip(Me.cbAutoSend, "Auto start sendning values")
         Me.cbAutoSend.UseVisualStyleBackColor = True
         '
         'lblAuto
@@ -164,6 +166,7 @@ Partial Class frmMain
         Me.lblAuto.Size = New System.Drawing.Size(29, 13)
         Me.lblAuto.TabIndex = 29
         Me.lblAuto.Text = "Auto"
+        Me.ttHelpPopup.SetToolTip(Me.lblAuto, "Auto start sendning values")
         '
         'tmrUpdate
         '
@@ -207,5 +210,6 @@ Partial Class frmMain
     Friend WithEvents cbAutoSend As System.Windows.Forms.CheckBox
     Friend WithEvents lblAuto As System.Windows.Forms.Label
     Friend WithEvents tmrUpdate As System.Windows.Forms.Timer
+    Friend WithEvents ttHelpPopup As System.Windows.Forms.ToolTip
 
 End Class
