@@ -103,7 +103,7 @@ Partial Class frmMain
         Me.txtPort.Name = "txtPort"
         Me.txtPort.Size = New System.Drawing.Size(54, 20)
         Me.txtPort.TabIndex = 0
-        Me.ttHelpPopup.SetToolTip(Me.txtPort, "Enter Port of target computer")
+        Me.ttHelpPopup.SetToolTip(Me.txtPort, "Enter port of target computer")
         '
         'niTray
         '
