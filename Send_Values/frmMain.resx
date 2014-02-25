@@ -128,6 +128,9 @@
         1EFTD0UDpNjXvSXf1LIc188FH3E3fBliZyyY0Re5/IYeAAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="ttHelpPopup.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>330, 3</value>
+  </metadata>
   <metadata name="niTray.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>2, 1</value>
   </metadata>
@@ -1276,9 +1279,6 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 </value>
   </data>
-  <metadata name="ttHelpPopup.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>330, 3</value>
-  </metadata>
   <metadata name="tmrUpdate.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>219, 3</value>
   </metadata>

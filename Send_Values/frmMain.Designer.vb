@@ -85,6 +85,7 @@ Partial Class frmMain
         Me.txtIPAddress.Name = "txtIPAddress"
         Me.txtIPAddress.Size = New System.Drawing.Size(135, 20)
         Me.txtIPAddress.TabIndex = 0
+        Me.ttHelpPopup.SetToolTip(Me.txtIPAddress, "Enter IP-Address of target computer")
         '
         'lbl_IPAddress
         '
@@ -102,6 +103,7 @@ Partial Class frmMain
         Me.txtPort.Name = "txtPort"
         Me.txtPort.Size = New System.Drawing.Size(54, 20)
         Me.txtPort.TabIndex = 0
+        Me.ttHelpPopup.SetToolTip(Me.txtPort, "Enter Port of target computer")
         '
         'niTray
         '
