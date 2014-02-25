@@ -157,6 +157,8 @@ Public Class frmMain
     End Sub
 
     Private Sub butSendValues_Click(sender As Object, e As EventArgs) Handles butSendValues.Click
+        If String.IsNullOrEmpty(txtIPAddress.Text) Or String.IsNullOrEmpty(txtPort.Text) Then Return
+
         If butSendValues.Text = "Send Values" Then
             bSendON = True
             butSendValues.Text = "Stop"
